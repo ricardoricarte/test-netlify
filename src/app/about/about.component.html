@@ -1,0 +1,24 @@
+<div class="about">
+  <h2 id="sobre">Sobre</h2>
+  <div class="about-me">
+    <p class="apresentation">
+      Me chamo Ricardo Ricarte, sou programador Backend/Frontend, tenho
+      por Tecnocnologia uma paixão e hobbie onde desejo transformar em algo
+      profissional.
+    </p>
+    <div class="list">
+      <dl class="knowledge">
+        <dt>Tenho conhecimentos em:</dt>
+        <dd *ngFor="let item of knowledge">{{ item }}</dd>
+      </dl>
+      <dl class="studying">
+        <dt>Cursando:</dt>
+        <dd *ngFor="let item of studying">{{ item }}</dd>
+      </dl>
+      <dl class="complete-courses">
+        <dt>Cursos concluídos:</dt>
+        <dd *ngFor="let item of completeCourse">{{ item }}</dd>
+      </dl>
+    </div>
+  </div>
+</div>

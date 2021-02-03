@@ -1,0 +1,69 @@
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #275fba;
+  color: white;
+  height: 13vh;
+}
+
+.icons {
+  display: flex;
+}
+
+#linkedin-icon {
+  width: 26px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+#behance-icon {
+  width: 22px;
+  height: 22px;
+}
+
+nav {
+  width: 60%;
+}
+
+.lista-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.lista-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.lista-nav li {
+  margin: 0px 10px;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  margin-right: 120px;
+  width: 123px;
+  height: 40px;
+  background: linear-gradient(96.48deg, #f2edca 8.74%, #b8b28f 94.07%);
+  border-radius: 40px;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 0.9rem;
+  font-family: "DM Sans", sans-serif;
+  color: #434343;
+  font-weight: 700;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  background: #c4bf99;
+  transform: scale(1.1);
+  cursor: pointer;
+}

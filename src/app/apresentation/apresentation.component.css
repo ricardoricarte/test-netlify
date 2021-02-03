@@ -1,0 +1,52 @@
+.corpo {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("https://www.teahub.io/photos/full/296-2965452_5-ferramentas-em-alta-para-desenvolvedores-react-desenvolvedor.png");
+  background-color: linear-gradient(
+    96.08deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 68.93%
+  );
+  background-position: center;
+  background-size: cover;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  color: white;
+}
+
+.body-content span:first-child {
+  margin-bottom: 8px;
+}
+
+.body-content > .name,
+.job {
+  font-size: 1.5rem;
+}
+
+button {
+  margin-right: 120px;
+  width: 222.94px;
+  height: 64.04px;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-weight: 700;
+  transition: transform 0.3s;
+  background: linear-gradient(94.98deg, #2c6bd1 20.01%, #184794 83.79%);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 78px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background: #184794;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 78px;
+}
